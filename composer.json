@@ -1,0 +1,15 @@
+{
+    "name": "demirel/mvc-framework",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ydemirel1964",
+            "email": "ydemirel1964@gmail.com"
+        }
+    ],
+    "require": {}
+}   
