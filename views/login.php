@@ -1,13 +1,15 @@
 LOGIN FORM
 
 <form action="" method="post">
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" placeholder="Enter email">
+    </div>
 
-    <label for="email">Email</label>
-    <input type="text" name="email" id=""><br>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" placeholder="Enter Password">
+    </div>
 
-    <label for="password">Password</label>
-    <input type="password" name="password" id=""><br>
-
-    <button type="submit">Submit</button>
-    
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
